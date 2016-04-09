@@ -1,0 +1,16 @@
+{
+	"name": "channelcrosser.com",
+	"version": "1.0.0",
+	"author": "Quentin Adam",
+	"description": "Crowdfunding website channelcrosser.com",
+	"dependencies" : {
+		"express": "4.*",
+		"body-parser": "1.*",
+		"stripe": "3.*",
+		"morgan": "1.*",
+		"aws-sdk": "2.*",
+		"sqlite3": "3.*",
+		"co": "4.*",
+		"moment": "2.*"
+	}
+}

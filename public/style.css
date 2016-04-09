@@ -1,0 +1,278 @@
+*, h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+section p {
+  text-align: justify;
+}
+section .center p, section .center {
+  text-align: center;
+}
+body {
+  font-size: 12px;
+}
+section#donate {
+  display: none;
+}
+.support {
+  display: none;
+}
+select{ 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.form-control, select, .btn {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.form-control {
+  width: 100%;
+  height: 30px;
+  padding: 4px 7px;
+}
+.outer {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+header .col-sm-6.left, header .col-sm-6.right {
+  text-align: center;
+  height: 240px;
+}
+@media (min-width: 768px) {
+  header .col-sm-6.left {
+    text-align: right;
+  }
+  header .col-sm-6.right {
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+.container-right, .container-left {
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  .container-right {
+    width: 375px;
+    margin-left: -15px;
+    margin-right: auto;
+  }
+  .container-left {
+    width: 375px;
+    margin-right: -15px;
+    margin-left: auto;
+  }
+}
+@media (min-width: 992px) {
+  .container-right {
+    width: 485px;
+    margin-left: -15px;
+    margin-right: auto;
+  }
+  .container-left {
+    width: 485px;
+    margin-right: -15px;
+    margin-left: auto;
+  }
+}
+.row .row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.row .row .col-sm-1, .row .row .col-sm-2, .row .row .col-sm-3, .row .row .col-sm-4, .row .row .col-sm-5, .row .row .col-sm-6, .row .row .col-sm-7, .row .row .col-sm-8, .row .row .col-sm-9, .row .row .col-sm-10, .row .row .col-sm-11, .row .row .col-sm-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+section#donate {
+  background-color: rgb(0, 43, 54);
+  color: white;
+  position: relative;
+}
+section#donate .row .col-sm-3 h3 {
+  font-size:14px;
+  margin-top: 7px;
+}
+.radio-inline, .radio-inline+.radio-inline {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+input[type=radio] {
+  margin-top:3px;
+}
+input.form-control {
+  font-size: 12px;
+}
+.container, .container-left, .container-right {
+  padding-bottom: 10px;
+}
+.circle {
+  width: 150px;
+  margin: 0 auto;
+  position: relative; 
+}
+.circle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 10px solid rgba(255,255,255,0.6);
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.circle img {
+  width: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.btn-primary {
+  background-color: #00b2ad;
+  border: 1px solid #009994;
+}
+.btn-primary:visited {
+  background-color: #00b2ad;
+  border: 1px solid #009994;
+}
+.btn-primary:hover {
+  background-color: #009994;
+  border: 1px solid #009994;
+}
+.btn-primary:active {
+  background-color: #00b2ad;
+  border: 1px solid #009994;
+}
+header {
+  background-color: rgb(0, 43, 54);
+  background-image: url('sea.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  height: 700px;
+}
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.challenge {
+  background-image: url('challenge.jpg');
+  background-size:cover;
+  background-position: center center;
+  height: 400px;
+}
+.association {
+  background-image: url('pouponniere.jpg');
+  background-size:cover;
+  background-position: 40% center;
+  height: 400px;
+}
+@media (min-width: 768px) {
+  .challenge {
+    height: 740px;
+  }
+  .association {
+    height: 910px;
+  }
+}
+@media (min-width: 992px) {
+  .challenge {
+    height: 620px;
+  }
+  .association {
+    height: 710px;
+  }
+}
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 43, 54, 0.8);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.visa, .mastercard {
+  width: 41px; 
+  height: 24px;
+  margin: -2px 0;
+}
+.stripe {
+  height: 20px;
+  width: 40px;
+}
+.zebra {
+  background-color: #eee;
+}
+header h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80%;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+p.error {
+  color: red;
+  display: none;
+}
+header a, header a:hover {
+  color: white;
+  font-size: 14px;
+}
+div.confirm {
+  display: none;
+}
+div.progress-bowl {
+  height: 180px;
+  width: 180px;
+  border-radius: 90px;
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+div.progress-bowl-inner {
+  background-color: rgb(0, 178, 173);
+  height: 0px;
+  width: 180px;
+  position: absolute;
+  bottom: 0px;
+}
+div.progress-bowl-text {
+  padding-top: 36px;
+  position: relative;
+}
+div.progress-bowl-text p, div.progress-bowl-text p span {
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+p.progress-bowl-total {
+  font-size: 28px; 
+  font-weight: bold;
+}
+p.progress-bowl-goal {
+  font-size: 24px; 
+  font-weight: bold;
+}
+span.donations {
+  font-weight: bold;
+}

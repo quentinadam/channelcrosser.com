@@ -1,0 +1,10 @@
+{
+	"aws": {
+		"accessKeyId": "",
+		"secretAccessKey": "",
+		"region": ""
+	},
+	"stripe": {
+		"secretKey": ""
+	}
+}
